@@ -1,0 +1,152 @@
+                                                                                .div-1 {
+                                                                                    background-color: hsl(31, 77%, 52%);
+                                                                                    width: 275px;
+                                                                                    height: 400px;
+                                                                                    border-bottom-left-radius: 10px;
+                                                                                    border-top-left-radius: 10px;
+                                                                                }
+                                                                                
+                                                                                .div-2 {
+                                                                                    background-color: hsl(184, 100%, 22%);
+                                                                                    width: 275px;
+                                                                                    height: 400px;
+                                                                                }
+                                                                                
+                                                                                .div-3 {
+                                                                                    background-color: hsl(179, 100%, 13%);
+                                                                                    width: 275px;
+                                                                                    height: 400px;
+                                                                                    border-bottom-right-radius: 10px;
+                                                                                    border-top-right-radius: 10px;
+                                                                                }
+                                                                                
+                                                                                .container {
+                                                                                    display: flex;
+                                                                                    align-items: center;
+                                                                                    flex-direction: row;
+                                                                                    flex-wrap: wrap;
+                                                                                    justify-content: center;
+                                                                                    width: 100%;
+                                                                                    margin-top: 110px;
+                                                                                }
+                                                                                
+                                                                                h1 {
+                                                                                    padding-left: 40px;
+                                                                                    font-family: 'Big Shoulders Display', cursive;
+                                                                                    color: hsl(0, 0%, 95%);
+                                                                                }
+                                                                                
+                                                                                p {
+                                                                                    padding-left: 40px;
+                                                                                    width: 70%;
+                                                                                    line-height: 1.25;
+                                                                                    font-size: 15px;
+                                                                                    font-family: 'Lexend Deca', sans-serif;
+                                                                                    color: hsla(0, 0%, 100%, 0.75)
+                                                                                }
+                                                                                
+                                                                                .btn1 {
+                                                                                    margin-top: 50px;
+                                                                                    margin-left: 40px;
+                                                                                    border-radius: 28px;
+                                                                                    padding: 10px 30px;
+                                                                                    background-color: hsl(0, 0%, 95%);
+                                                                                }
+                                                                                
+                                                                                .btn1:hover {
+                                                                                    background-color: hsl(31, 77%, 52%);
+                                                                                }
+                                                                                
+                                                                                .btn2 {
+                                                                                    margin-top: 50px;
+                                                                                    margin-left: 40px;
+                                                                                    border-radius: 28px;
+                                                                                    padding: 10px 30px;
+                                                                                    background-color: hsl(0, 0%, 95%);
+                                                                                }
+                                                                                
+                                                                                .btn2:hover {
+                                                                                    background-color: hsl(184, 100%, 22%);
+                                                                                }
+                                                                                
+                                                                                .btn3 {
+                                                                                    margin-top: 50px;
+                                                                                    margin-left: 40px;
+                                                                                    border-radius: 28px;
+                                                                                    padding: 10px 30px;
+                                                                                    background-color: hsl(0, 0%, 95%);
+                                                                                }
+                                                                                
+                                                                                .btn3:hover {
+                                                                                    background-color: hsl(179, 100%, 13%);
+                                                                                }
+                                                                                
+                                                                                .icon-1 {
+                                                                                    padding-top: 30px;
+                                                                                    padding-left: 40px;
+                                                                                }
+                                                                                
+                                                                                .icon-2 {
+                                                                                    padding-top: 30px;
+                                                                                    padding-left: 40px;
+                                                                                }
+                                                                                
+                                                                                .icon-3 {
+                                                                                    padding-top: 30px;
+                                                                                    padding-left: 40px;
+                                                                                }
+                                                                                
+                                                                                body {
+                                                                                    background-color: hsl(0, 0%, 95%);
+                                                                                }
+                                                                                
+                                                                                .abouts {
+                                                                                    width: 100%;
+                                                                                    margin: 0 auto;
+                                                                                    position: absolute;
+                                                                                    color: var(--gray);
+                                                                                    bottom: 10px;
+                                                                                    font-size: 0.75rem;
+                                                                                    line-height: 20px;
+                                                                                    text-align: center;
+                                                                                }
+                                                                                
+                                                                                .abouts a {
+                                                                                    text-decoration: none;
+                                                                                    color: darkgray;
+                                                                                }
+                                                                                
+                                                                                .abouts a:hover {
+                                                                                    color: black;
+                                                                                }
+                                                                                
+                                                                                .p3 {
+                                                                                    width: 77%;
+                                                                                }
+                                                                                
+                                                                                @media only screen and (max-width: 844px) {
+                                                                                    body {
+                                                                                        display: flex;
+                                                                                        width: 100%;
+                                                                                        overflow: scroll;
+                                                                                        flex-wrap: wrap;
+                                                                                    }
+                                                                                    .container {
+                                                                                        padding: 50px 0;
+                                                                                        flex-direction: column;
+                                                                                    }
+                                                                                    .div-1 {
+                                                                                        border-radius: 7px 7px 0 0;
+                                                                                    }
+                                                                                    .div-3 {
+                                                                                        border-radius: 0 0 7px 7px;
+                                                                                    }
+                                                                                    p {
+                                                                                        font-size: 0.77rem;
+                                                                                    }
+                                                                                    .abouts {
+                                                                                        position: relative;
+                                                                                        width: auto;
+                                                                                        padding-bottom: 10px;
+                                                                                    }
+                                                                                }
